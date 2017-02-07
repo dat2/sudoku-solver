@@ -16,7 +16,10 @@ cabal-version:       >=1.10
 library
   hs-source-dirs:      src
   exposed-modules:     Puzzle
+                     , PuzzleParser
   build-depends:       base >= 4.7 && < 5
+                     , vector
+                     , parsec
   default-language:    Haskell2010
 
 executable sudoku
